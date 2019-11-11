@@ -12,7 +12,7 @@ const logDriversByHometown = function(drivers, hometown) {
   });
 }
 
-const driversByRevenue = function(drivers) {
+const driversByName = function(drivers) {
   return drivers.slice().sort(function(driverOne, driverTwo) {
     return driverOne.name.localeCompare(driverTwo.name);
   });
