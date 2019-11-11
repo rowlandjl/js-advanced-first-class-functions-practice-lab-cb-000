@@ -13,5 +13,7 @@ const logDriversByHometown = function(drivers, hometown) {
 }
 
 const driversByRevenue = function(drivers) {
-  return drivers.slice().sort(function())
+  return drivers.slice().sort(function(driverOne, driverTwo) {
+    
+  })
 }
