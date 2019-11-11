@@ -4,4 +4,6 @@ const logDriverNames = function(drivers) {
   });
 }
 
-const logDriversByHometown = 
+const logDriversByHometown = function(drivers, hometown) {
+  
+}
