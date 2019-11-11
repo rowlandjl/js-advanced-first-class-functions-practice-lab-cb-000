@@ -5,5 +5,7 @@ const logDriverNames = function(drivers) {
 }
 
 const logDriversByHometown = function(drivers, hometown) {
-  drivers.forEach
+  drivers.forEach(function(driver) {
+    
+  })
 }
